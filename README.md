@@ -12,7 +12,7 @@ python main.py https://github.com/pallets/flask -o report.md
 
 ## Why I Built This
 
-As an engineer with a product background, I constantly context-switch across unfamiliar codebases — evaluating open-source tools, onboarding onto new projects, or reviewing technical decisions. I wanted a fast, repeatable way to understand how a system is organized without spending an hour clicking through folders.
+As an engineer with a product background, I constantly context-switch across unfamiliar codebases. I wanted a fast, repeatable way to understand how a system is organized without spending an hour clicking through folders.
 
 RepoLens turns that hour into seconds.
 
