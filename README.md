@@ -1,6 +1,6 @@
 # RepoLens
 
-## 🚀 What It Does
+## What It Does
 
 RepoLens is a CLI tool that clones any GitHub repository, analyzes its structure, and generates a clean **Markdown architecture report** powered by LLM reasoning.
 
@@ -10,13 +10,13 @@ Give it a repo URL — get back a structured breakdown of the tech stack, archit
 python main.py https://github.com/pallets/flask -o report.md
 ```
 
-## 🧠 Why I Built This
+## Why I Built This
 
 As an engineer with a product background, I constantly context-switch across unfamiliar codebases — evaluating open-source tools, onboarding onto new projects, or reviewing technical decisions. I wanted a fast, repeatable way to understand how a system is organized without spending an hour clicking through folders.
 
 RepoLens turns that hour into seconds.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -26,7 +26,7 @@ RepoLens turns that hour into seconds.
 | LLM Integration | OpenAI API (`gpt-4o` by default) |
 | Interface | CLI via `argparse` |
 
-## 📦 Setup
+## Setup
 
 ```bash
 # Clone this repo
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 export OPENAI_API_KEY="sk-..."
 ```
 
-## 📖 Usage
+## Usage
 
 ```bash
 # Analyze a repo and print the report to stdout
@@ -55,7 +55,7 @@ python main.py https://github.com/user/repo -m gpt-4o-mini
 python main.py https://github.com/user/repo -o report.md
 ```
 
-## 📌 Example Output
+## Example Output
 
 > Output from running `python main.py https://github.com/pallets/flask`
 
